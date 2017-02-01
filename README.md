@@ -1,3 +1,3 @@
-# Twitch.tv JSON API
+# Twitch Livestream Viewer
 
-This application shows Twitch.tv information for certain streamers.
+This application allows the user to search for a livestreamer and see if they are live.
