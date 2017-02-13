@@ -8,7 +8,7 @@ $(document).ready(function () {
 function getData() {
     users.forEach(function (user) {
         $.ajax({
-            url: "https://wind-bow.hyperdev.space/twitch-api/streams/" + user,
+            url: "https://wind-bow.gomix.me/twitch-api/streams/" + user,
             dataType: "jsonp",
             contentType: "application/json",
             success: function (data) {
@@ -25,7 +25,7 @@ function getData() {
             }
         });
         $.ajax({
-            url: "https://wind-bow.hyperdev.space/twitch-api/channels/" + user,
+            url: "https://wind-bow.gomix.me/twitch-api/channels/" + user,
             dataType: "jsonp",
             contentType: "application/json",
             success: function (data) {
