@@ -32,7 +32,7 @@ function getData() {
                 if (data.logo != null) {
                     logo = data.logo;
                 } else {
-                    logo = "http://res.cloudinary.com/mrwhitenerdy/image/upload/v1478309343/logo_vb0knh.png";
+                    logo = "https://res.cloudinary.com/mrwhitenerdy/image/upload/v1478309343/logo_vb0knh.png";
                 }
 
                 if (data.display_name != null) {
